@@ -1,0 +1,53 @@
+/*Q5 - Create a calculator using switch statement to perform addition, subtraction, multiplication
+and division.*/
+import java.util.Scanner;
+public class A4Q5{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int ch;
+        int num1,num2;
+        while(true)
+        {
+            System.out.println("1:Addition\n2:Subtraction\n3:Multiplication\n4:Division\n5:Exit");
+            System.out.println("Enter your choice");
+            ch=sc.nextInt();
+            switch(ch)
+            {
+
+                case 1:
+                    System.out.println("Enter two numbers");
+                    num1=sc.nextInt();
+                    num2=sc.nextInt();
+                    System.out.println("Addition = "+(num1+num2));
+                    break;
+                case 2:
+                    System.out.println("Enter two numbers");
+                    num1=sc.nextInt();
+                    num2=sc.nextInt();
+                    System.out.println("Subtraction = "+(num1-num2));
+                    break;
+                case 3:
+                    System.out.println("Enter two numbers");
+                    num1=sc.nextInt();
+                    num2=sc.nextInt();
+                    System.out.println("Multiplication = "+(num1*num2));
+                    break;
+                case 4:
+                    System.out.println("Enter two numbers");
+                    num1=sc.nextInt();
+                    num2=sc.nextInt();
+                    if(num2!=0)
+                    System.out.println("Division = "+(num1/num2));
+                    else
+                        System.out.println("Division not possible");
+                    break;
+                case 5:
+                    System.out.println("Exit");
+                    return;
+                default :
+                    System.out.println("Invalid choice");
+            }
+        }
+    }
+}
