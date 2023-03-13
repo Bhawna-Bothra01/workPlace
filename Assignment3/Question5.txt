@@ -1,0 +1,22 @@
+//Assignment 3
+/*Q5 - Find the total number of bits needed to be flipped to convert x to y.*/
+import java.util.Scanner;
+public class JavaOperator5 {
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number\n");
+        int num1=sc.nextInt();
+        System.out.println("Enter another number\n");
+        int num2=sc.nextInt();
+        int xor1_2=(num1^num2);
+        int count=0;
+        while(xor1_2!=0)
+        {
+            int rbsm=(xor1_2&(-xor1_2));
+            xor1_2-=rbsm;
+            count++;
+        }
+        System.out.println("Number of bits needed to be flipped to convert "+num1+" to "+num2+" is "+count);
+    }
+}

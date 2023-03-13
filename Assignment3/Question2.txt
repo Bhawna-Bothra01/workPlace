@@ -1,0 +1,21 @@
+//Assignment 3
+/*Q2 - Swap two numbers without the use of third variable.*/
+import java.util.Scanner;
+public class JavaOperator2 {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        int num_1,num_2;
+        System.out.println("Enter first number");
+        num_1=obj.nextInt();
+        System.out.println("Enter second number");
+        num_2=obj.nextInt();
+        System.out.println("Before swapping");
+        System.out.println("First number is "+num_1+" and second number is "+num_2);
+        num_1=num_1+num_2;
+        num_2=num_1-num_2;
+        num_1=num_1-num_2;
+        System.out.println("After swapping");
+        System.out.println("First number is "+num_1+" and second number is "+num_2);
+
+    }
+}
