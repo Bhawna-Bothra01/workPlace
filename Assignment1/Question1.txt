@@ -1,0 +1,14 @@
+//Assignment 1 pw skills
+//Q1 - Take 2 integer values in two variables x and y and print their product.
+import java.util.Scanner;
+public class ProductOfIntegers {
+    public static void main(String[] args)
+    {
+        //int x=2,y=3;
+        Scanner sc=new Scanner(System.in);
+        int x,y;
+        System.out.println("Enter the value of x and y");
+        x=sc.nextInt(); y=sc.nextInt();//Taking input from user
+        System.out.println("Product of x and y is "+(x*y));
+    }
+}

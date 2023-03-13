@@ -1,0 +1,17 @@
+//Assignment 1
+//Q3 - Write a Java program to take the length and breadth of a rectangle and print its area.
+import java.util.Scanner;
+public class RectangleArea {
+    public static void main(String[] args)
+    {
+        Scanner obj = new Scanner(System.in);
+        int length,breadth,area;
+        System.out.println("Enter the length");
+        length=obj.nextInt();
+        System.out.println("Enter the breadth");
+        breadth=obj.nextInt();
+        area=length*breadth;
+        System.out.println("Area of rectangle "+area);
+        /* System.out.println("Area of rectangle "+(length*breadth));*/
+    }
+}

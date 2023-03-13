@@ -1,0 +1,16 @@
+//Assignment 1
+//Q2 - Print the ASCII value of character ‘U’
+import java.util.Scanner;
+public class Ascii_U {
+    public static void main(String[] args)
+    {
+        Scanner obj = new Scanner(System.in);
+//       int a='U';
+//       System.out.println("Ascii value of 'U' is "+a);
+        char a;
+        System.out.println("Enter a character");
+        a=obj.next().charAt(0);
+        int asciiValue= a;
+        System.out.println("Ascii value of  "+a+" is "+asciiValue);
+    }
+}

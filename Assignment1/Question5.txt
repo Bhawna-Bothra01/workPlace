@@ -1,0 +1,20 @@
+//Assignment 1
+//Q5 - Write a Java program to swap two numbers with the help of a third variable.
+import java.util.Scanner;
+public class SwapTwoNum{
+    public static void main(String[] args)
+    {
+        Scanner obj =new Scanner(System.in);
+        int temp,num_1,num_2;
+        System.out.println("Enter the first number");
+        num_1=obj.nextInt();
+        System.out.println("Enter the second number");
+        num_2=obj.nextInt();
+        System.out.println("First Number: "+num_1+" and Second Number : "+num_2+" before swapping");
+        temp=num_1;
+        num_1=num_2;
+        num_2=temp;
+        System.out.println("First Number: "+num_1+" and Second Number : "+num_2+" after swapping");
+
+    }
+}

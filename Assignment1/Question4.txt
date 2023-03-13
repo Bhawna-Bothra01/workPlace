@@ -1,0 +1,12 @@
+//Assignment 1
+//Q4 - Write a Java program to calculate the cube of a number.
+import java.util.Scanner;
+public class Cube {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        int a;
+        System.out.println("Enter the number");
+        a=obj.nextInt();
+        System.out.println("Cube of "+a+" is "+a*a*a);
+    }
+}
