@@ -1,0 +1,18 @@
+//Assignment5
+/*Q5 - Given few lines of input(number of lines unknown) where each line has two
+strings, concatenate the strings.*/
+import java.util.Scanner;
+public class JavaIO5 {
+    public static void main(String[] args)
+    {
+        Scanner obj = new Scanner(System.in);
+        while(obj.hasNextLine())
+        {
+            String a=obj.next();
+
+            String b=obj.next();
+            System.out.println(a+b);
+
+        }
+    }
+}

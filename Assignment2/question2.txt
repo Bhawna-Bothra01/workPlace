@@ -1,0 +1,14 @@
+//Assignment 2
+/*Q2 - Input two different string and print them in same line.*/
+import java.util.Scanner;
+public class JavaIO2 {
+    public static void main(String[] args)
+    {
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter string first and second");
+        String str1=obj.next(),str2 =obj.next();
+        System.out.println(str1+str2);
+
+
+    }
+}
