@@ -1,0 +1,30 @@
+/*Q4 - Write a program to print positive number entered by the user, if user enters a negative
+number, it is skipped*/
+import java.util.Scanner;
+public class A4Q4 {
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the positive number as much as you want");
+        System.out.println("If you want to stop enter negative number");
+        int num;
+        int[] arr=new int[20];
+        int i=0;
+        while(true)
+        {
+            num=sc.nextInt();
+            if(num<0)
+                break;
+            else
+                if(num==0)
+                    continue;
+                else
+                {
+                    arr[i++]=num;
+                }
+        }
+        for(i=0;arr[i]!=0;i++) {
+            System.out.println(arr[i] + "");
+        }
+    }
+}

@@ -1,0 +1,14 @@
+/*Q2 - Write a program to print absolute value of a number entered by the user.*/
+import java.util.Scanner;
+public class A4Q2 {
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number");
+        int num=sc.nextInt();
+        int num1=num;
+        if(num<0)
+            num*=-1;
+        System.out.println("Absolute value of "+num1+" is "+num );
+    }
+}
