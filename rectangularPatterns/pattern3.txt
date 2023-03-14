@@ -1,4 +1,4 @@
-//Numerical rectangular pattern
+//Numerical rectangular pattern problem
 /*  FOR EXAMPLE:
                  1 2 3 4 5 6
                  2 3 4 5 6 1
