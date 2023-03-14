@@ -1,4 +1,4 @@
-/*Q6 - Write a program to calculate marks to grades*/
+/*Q6 - Write a program to calculate marks to grades */
 import java.util.Scanner;
 public class A4Q6 {
     public static void main(String[] args)
